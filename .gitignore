@@ -1,8 +1,10 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 
-# data files
-data/
+# ignore all files in data/
+data/*
+# except for the CSV that contains the NYC zone lookup
+!data/taxi+_zone_lookup.csv
 
 # Jupyter Notebook
 .ipynb_checkpoints
